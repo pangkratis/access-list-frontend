@@ -1,0 +1,67 @@
+{
+  "name": "access-control-list-frontend",
+  "version": "0.0.1",
+  "description": "access list management system for admins",
+  "productName": "access list management system",
+  "author": "Dimitris Georgiadis <geojimas@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "v": "quasar --version"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.10.0",
+    "@fullcalendar/daygrid": "^5.10.0",
+    "@fullcalendar/interaction": "^5.10.0",
+    "@fullcalendar/vue": "^5.10.0",
+    "@quasar/cli": "^1.2.2",
+    "@quasar/extras": "^1.12.0",
+    "@vue/apollo-composable": "4.0.0-alpha.12",
+    "@vue/composition-api": "^1.0.0-rc.13",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.23.0",
+    "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.5",
+    "gsap": "^3.8.0",
+    "lodash": "^4.17.21",
+    "oidc-client": "^1.11.5",
+    "quasar": "^1.0.0",
+    "ramda": "^0.27.1",
+    "v-calendar": "^2.3.4",
+    "vue-apollo": "^3.0.7",
+    "vuex-persistedstate": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "eslint-webpack-plugin": "^2.4.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

@@ -1,0 +1,93 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-transform: lowercase;
+}
+
+.drawer {
+  color: $accent;
+}
+
+.menu .image {
+  color: $accent;
+  background: rgb(26,122,76);
+  background: linear-gradient(0deg, rgba(26,122,76,1) 0%, rgba(23,106,66,1) 100%);
+  border-radius: 10px;
+  width: 50px;
+  height: 40px
+}
+
+.date {
+  margin-left: 85px;
+  margin-top: 30px;
+}
+
+.user{
+  letter-spacing: 1px;
+}
+
+.role{
+  color: #a3a3a3;
+  font-size: small
+}
+
+.radius {
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.links{
+  margin-top: 20px;
+  margin-left: -9px;
+  color: #e2e1e1;
+  font-size: small
+}
+
+.btn {
+  width: 65px;
+  height: 45px;
+  padding: 5px;
+}
+
+.search {
+  margin-top: 65px;
+}
+
+.history {
+  color: $secondary;
+}
+
+.rentSearch {
+  padding-left: 800px;
+}
+
+.back {
+  max-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: 50px;
+  text-decoration: none;
+  border: 2px solid $primary;
+  border-radius: 20px;
+  padding: 15px;
+
+  span:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 680px) {
+  .title{
+    display: none;
+  }
+  .user{
+    margin-left: 80px;
+  }
+}
